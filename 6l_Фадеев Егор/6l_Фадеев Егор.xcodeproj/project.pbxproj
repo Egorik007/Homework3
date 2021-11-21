@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74AE2A1327474F6800AFA701 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE2A1227474F6800AFA701 /* main.swift */; };
+		74AE2A262747753100AFA701 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE2A252747753100AFA701 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		74AE2A0D27474F6800AFA701 /* CopyFiles */ = {
+		74AE2A202747753100AFA701 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		74AE2A0F27474F6800AFA701 /* 5l_Фадеев Егор */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5l_Фадеев Егор"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74AE2A1227474F6800AFA701 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		74AE2A222747753100AFA701 /* 6l_Фадеев Егор */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6l_Фадеев Егор"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AE2A252747753100AFA701 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		74AE2A0C27474F6800AFA701 /* Frameworks */ = {
+		74AE2A1F2747753100AFA701 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,66 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		74AE2A0627474F6800AFA701 = {
+		74AE2A192747753100AFA701 = {
 			isa = PBXGroup;
 			children = (
-				74AE2A1127474F6800AFA701 /* 5l_Фадеев Егор */,
-				74AE2A1027474F6800AFA701 /* Products */,
+				74AE2A242747753100AFA701 /* 6l_Фадеев Егор */,
+				74AE2A232747753100AFA701 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		74AE2A1027474F6800AFA701 /* Products */ = {
+		74AE2A232747753100AFA701 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				74AE2A0F27474F6800AFA701 /* 5l_Фадеев Егор */,
+				74AE2A222747753100AFA701 /* 6l_Фадеев Егор */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		74AE2A1127474F6800AFA701 /* 5l_Фадеев Егор */ = {
+		74AE2A242747753100AFA701 /* 6l_Фадеев Егор */ = {
 			isa = PBXGroup;
 			children = (
-				74AE2A1227474F6800AFA701 /* main.swift */,
+				74AE2A252747753100AFA701 /* main.swift */,
 			);
-			path = "5l_Фадеев Егор";
+			path = "6l_Фадеев Егор";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		74AE2A0E27474F6800AFA701 /* 5l_Фадеев Егор */ = {
+		74AE2A212747753100AFA701 /* 6l_Фадеев Егор */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74AE2A1627474F6800AFA701 /* Build configuration list for PBXNativeTarget "5l_Фадеев Егор" */;
+			buildConfigurationList = 74AE2A292747753100AFA701 /* Build configuration list for PBXNativeTarget "6l_Фадеев Егор" */;
 			buildPhases = (
-				74AE2A0B27474F6800AFA701 /* Sources */,
-				74AE2A0C27474F6800AFA701 /* Frameworks */,
-				74AE2A0D27474F6800AFA701 /* CopyFiles */,
+				74AE2A1E2747753100AFA701 /* Sources */,
+				74AE2A1F2747753100AFA701 /* Frameworks */,
+				74AE2A202747753100AFA701 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "5l_Фадеев Егор";
-			productName = "5l_Фадеев Егор";
-			productReference = 74AE2A0F27474F6800AFA701 /* 5l_Фадеев Егор */;
+			name = "6l_Фадеев Егор";
+			productName = "6l_Фадеев Егор";
+			productReference = 74AE2A222747753100AFA701 /* 6l_Фадеев Егор */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		74AE2A0727474F6800AFA701 /* Project object */ = {
+		74AE2A1A2747753100AFA701 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					74AE2A0E27474F6800AFA701 = {
+					74AE2A212747753100AFA701 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 74AE2A0A27474F6800AFA701 /* Build configuration list for PBXProject "5l_Фадеев Егор" */;
+			buildConfigurationList = 74AE2A1D2747753100AFA701 /* Build configuration list for PBXProject "6l_Фадеев Егор" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 74AE2A0627474F6800AFA701;
-			productRefGroup = 74AE2A1027474F6800AFA701 /* Products */;
+			mainGroup = 74AE2A192747753100AFA701;
+			productRefGroup = 74AE2A232747753100AFA701 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				74AE2A0E27474F6800AFA701 /* 5l_Фадеев Егор */,
+				74AE2A212747753100AFA701 /* 6l_Фадеев Егор */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		74AE2A0B27474F6800AFA701 /* Sources */ = {
+		74AE2A1E2747753100AFA701 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74AE2A1327474F6800AFA701 /* main.swift in Sources */,
+				74AE2A262747753100AFA701 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		74AE2A1427474F6800AFA701 /* Debug */ = {
+		74AE2A272747753100AFA701 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		74AE2A1527474F6800AFA701 /* Release */ = {
+		74AE2A282747753100AFA701 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +242,7 @@
 			};
 			name = Release;
 		};
-		74AE2A1727474F6800AFA701 /* Debug */ = {
+		74AE2A2A2747753100AFA701 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		74AE2A1827474F6800AFA701 /* Release */ = {
+		74AE2A2B2747753100AFA701 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -263,25 +263,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		74AE2A0A27474F6800AFA701 /* Build configuration list for PBXProject "5l_Фадеев Егор" */ = {
+		74AE2A1D2747753100AFA701 /* Build configuration list for PBXProject "6l_Фадеев Егор" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				74AE2A1427474F6800AFA701 /* Debug */,
-				74AE2A1527474F6800AFA701 /* Release */,
+				74AE2A272747753100AFA701 /* Debug */,
+				74AE2A282747753100AFA701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74AE2A1627474F6800AFA701 /* Build configuration list for PBXNativeTarget "5l_Фадеев Егор" */ = {
+		74AE2A292747753100AFA701 /* Build configuration list for PBXNativeTarget "6l_Фадеев Егор" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				74AE2A1727474F6800AFA701 /* Debug */,
-				74AE2A1827474F6800AFA701 /* Release */,
+				74AE2A2A2747753100AFA701 /* Debug */,
+				74AE2A2B2747753100AFA701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 74AE2A0727474F6800AFA701 /* Project object */;
+	rootObject = 74AE2A1A2747753100AFA701 /* Project object */;
 }

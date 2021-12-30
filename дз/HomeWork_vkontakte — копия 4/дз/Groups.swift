@@ -6,14 +6,14 @@
 //
 
 import UIKit
-
+@IBDesignable
 class Groups: UITableViewCell {
 
     
     @IBOutlet var groupPhoto: UIImageView!
     
     @IBOutlet var groupName: UILabel!
-    
+  
     func configure(photo:UIImage,name: String)
     {
         groupPhoto.image = photo

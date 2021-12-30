@@ -24,6 +24,9 @@
 		74F77F9E277A0CED0093655C /* ForecastCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F77F9C277A0CED0093655C /* ForecastCollectionCell.swift */; };
 		74F77F9F277A0CED0093655C /* ForecastCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74F77F9D277A0CED0093655C /* ForecastCollectionCell.xib */; };
 		74F77FA4277A1C690093655C /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F77FA3277A1C690093655C /* Class.swift */; };
+		74F77FA6277C3C6F0093655C /* testVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F77FA5277C3C6F0093655C /* testVC.swift */; };
+		74F77FA9277C4D910093655C /* UIBezierPath  + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F77FA8277C4D910093655C /* UIBezierPath  + Ext.swift */; };
+		74F77FAC277DA71F0093655C /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F77FAB277DA71F0093655C /* AvatarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		74F77F9C277A0CED0093655C /* ForecastCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCollectionCell.swift; sourceTree = "<group>"; };
 		74F77F9D277A0CED0093655C /* ForecastCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForecastCollectionCell.xib; sourceTree = "<group>"; };
 		74F77FA3277A1C690093655C /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		74F77FA5277C3C6F0093655C /* testVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVC.swift; sourceTree = "<group>"; };
+		74F77FA8277C4D910093655C /* UIBezierPath  + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBezierPath  + Ext.swift"; sourceTree = "<group>"; };
+		74F77FAB277DA71F0093655C /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,16 +84,17 @@
 		74F3B1252768FB92009BA355 /* дз */ = {
 			isa = PBXGroup;
 			children = (
+				74F77FA7277C4D520093655C /* Extensions */,
 				74F3B1262768FB92009BA355 /* AppDelegate.swift */,
 				74F3B1282768FB92009BA355 /* SceneDelegate.swift */,
 				74F3B12A2768FB92009BA355 /* ViewController.swift */,
 				74F77F7D27704E280093655C /* MyCollectionViewController.swift */,
 				74F77F9B277A0CA80093655C /* Collection */,
-				74F77F7B27704E0A0093655C /* MyTableViewController2.swift */,
 				74F77FA2277A1C5A0093655C /* Model */,
 				74F77F7927704DF60093655C /* MyTableViewController1.swift */,
 				74F77F7727704DA00093655C /* MyTableViewController.swift */,
 				74F3B12C2768FB92009BA355 /* Main.storyboard */,
+				74F77FA5277C3C6F0093655C /* testVC.swift */,
 				74F77F912779F3AF0093655C /* Friends.swift */,
 				74F77F952779F3C50093655C /* Groups.swift */,
 				74F77F962779F3C50093655C /* Groups.xib */,
@@ -102,6 +109,7 @@
 		74F77F9B277A0CA80093655C /* Collection */ = {
 			isa = PBXGroup;
 			children = (
+				74F77F7B27704E0A0093655C /* MyTableViewController2.swift */,
 				74F77F9C277A0CED0093655C /* ForecastCollectionCell.swift */,
 				74F77F9D277A0CED0093655C /* ForecastCollectionCell.xib */,
 			);
@@ -114,6 +122,23 @@
 				74F77FA3277A1C690093655C /* Class.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		74F77FA7277C4D520093655C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74F77FAA277DA6F00093655C /* Hacks */,
+				74F77FA8277C4D910093655C /* UIBezierPath  + Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		74F77FAA277DA6F00093655C /* Hacks */ = {
+			isa = PBXGroup;
+			children = (
+				74F77FAB277DA71F0093655C /* AvatarView.swift */,
+			);
+			path = Hacks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +222,10 @@
 				74F77F932779F3AF0093655C /* Friends.swift in Sources */,
 				74F77F7A27704DF60093655C /* MyTableViewController1.swift in Sources */,
 				74F3B1292768FB92009BA355 /* SceneDelegate.swift in Sources */,
+				74F77FA9277C4D910093655C /* UIBezierPath  + Ext.swift in Sources */,
 				74F77F7C27704E0A0093655C /* MyTableViewController2.swift in Sources */,
+				74F77FAC277DA71F0093655C /* AvatarView.swift in Sources */,
+				74F77FA6277C3C6F0093655C /* testVC.swift in Sources */,
 				74F77F7827704DA00093655C /* MyTableViewController.swift in Sources */,
 				74F77F9E277A0CED0093655C /* ForecastCollectionCell.swift in Sources */,
 				74F77F972779F3C50093655C /* Groups.swift in Sources */,

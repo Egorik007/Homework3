@@ -27,6 +27,14 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFF-kx-dPL">
+                        <rect key="frame" x="37" y="85" width="119" height="35"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system">
+                            <color key="baseForegroundColor" systemColor="systemRedColor"/>
+                        </buttonConfiguration>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstItem="lix-tJ-hBD" firstAttribute="top" secondItem="9nS-cL-2Wn" secondAttribute="top" constant="28" id="38Y-X8-lMC"/>
@@ -36,6 +44,11 @@
                     <constraint firstItem="P1a-RM-veP" firstAttribute="leading" secondItem="lix-tJ-hBD" secondAttribute="trailing" constant="52" id="xOl-5T-hhx"/>
                 </constraints>
             </tableViewCellContentView>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="8"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
             <connections>
                 <outlet property="groupName" destination="P1a-RM-veP" id="ZQj-lQ-ZXF"/>
                 <outlet property="groupPhoto" destination="lix-tJ-hBD" id="WLc-KU-GH1"/>
@@ -44,6 +57,10 @@
         </tableViewCell>
     </objects>
     <resources>
+        <image name="heart" catalog="system" width="128" height="109"/>
         <image name="person.3.sequence.fill" catalog="system" width="128" height="58"/>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

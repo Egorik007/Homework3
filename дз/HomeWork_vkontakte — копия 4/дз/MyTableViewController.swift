@@ -40,7 +40,7 @@ final class MyTableViewController: UITableViewController {
         
         else {return UITableViewCell()}
         let currencyFriend = friend[indexPath.row]
-        cell.configure(photo: UIImage(systemName: "person.fill") ?? UIImage(), name: currencyFriend)
+        cell.configure(photo: UIImage(named: "bugatti") ?? UIImage(), name: currencyFriend)
         // Configure the cell...
 
         return cell

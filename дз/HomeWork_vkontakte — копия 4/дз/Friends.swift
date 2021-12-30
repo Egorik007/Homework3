@@ -9,9 +9,20 @@ import UIKit
 
 class Friends: UITableViewCell {
 
-    @IBOutlet var userPhoto: UIImageView!
+    @IBOutlet var userPhoto: AvatarImage!
     
     @IBOutlet var friandName: UILabel!
+    
+    @IBOutlet var like: UIButton!
+    
+ 
+        private func Like()
+    {
+        //
+        like.setImage(UIImage(systemName: "heart"), for: .normal)
+        like.setImage(UIImage(systemName: "heart.fill"), for: .highlighted)
+    }
+    
     
     func configure(photo:UIImage,name: String)
     {

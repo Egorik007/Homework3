@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="groups" rowHeight="175" id="lfB-el-rmL" customClass="Groups" customModule="дз" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lfB-el-rmL" id="9nS-cL-2Wn">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zMH-t7-Aro" customClass="AvatarImage" customModule="дз" customModuleProvider="target">
+                        <rect key="frame" x="42" y="47" width="85" height="85"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="85" id="aYV-Nf-nYR"/>
+                            <constraint firstAttribute="width" constant="85" id="cbh-8A-5Sc"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YfF-cJ-w9b">
+                        <rect key="frame" x="180" y="75" width="180" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMt-8n-NcI">
+                        <rect key="frame" x="42" y="47" width="85" height="85"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain"/>
+                        <connections>
+                            <action selector="didTapAnimate:" destination="lfB-el-rmL" eventType="touchUpInside" id="dfN-3E-0Xj"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="YfF-cJ-w9b" secondAttribute="bottom" constant="76" id="84s-gm-pjj"/>
+                    <constraint firstItem="RMt-8n-NcI" firstAttribute="leading" secondItem="9nS-cL-2Wn" secondAttribute="leading" constant="42" id="Edf-8z-IWF"/>
+                    <constraint firstAttribute="bottom" secondItem="zMH-t7-Aro" secondAttribute="bottom" constant="48" id="OlF-dL-JLS"/>
+                    <constraint firstItem="YfF-cJ-w9b" firstAttribute="top" secondItem="9nS-cL-2Wn" secondAttribute="top" constant="75" id="PHz-QC-F4U"/>
+                    <constraint firstItem="zMH-t7-Aro" firstAttribute="top" secondItem="9nS-cL-2Wn" secondAttribute="top" constant="47" id="Vjf-ld-Ggi"/>
+                    <constraint firstItem="zMH-t7-Aro" firstAttribute="leading" secondItem="9nS-cL-2Wn" secondAttribute="leading" priority="999" constant="62" id="Wkg-NS-ydW"/>
+                    <constraint firstAttribute="trailing" secondItem="RMt-8n-NcI" secondAttribute="trailing" constant="248" id="fij-Sf-HtY"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="YfF-cJ-w9b" secondAttribute="trailing" id="gK2-qF-AFi"/>
+                    <constraint firstItem="zMH-t7-Aro" firstAttribute="leading" secondItem="9nS-cL-2Wn" secondAttribute="leading" constant="42" id="oNu-hr-OaE"/>
+                    <constraint firstAttribute="bottom" secondItem="RMt-8n-NcI" secondAttribute="bottom" constant="43" id="qce-Gm-c9u"/>
+                    <constraint firstAttribute="trailing" secondItem="zMH-t7-Aro" secondAttribute="trailing" constant="253" id="sId-1U-DJr"/>
+                    <constraint firstItem="RMt-8n-NcI" firstAttribute="top" secondItem="9nS-cL-2Wn" secondAttribute="top" constant="47" id="wCE-eT-TVF"/>
+                    <constraint firstItem="YfF-cJ-w9b" firstAttribute="leading" secondItem="9nS-cL-2Wn" secondAttribute="leading" constant="180" id="ykg-IJ-cvV"/>
+                    <constraint firstItem="YfF-cJ-w9b" firstAttribute="leading" secondItem="zMH-t7-Aro" secondAttribute="trailing" constant="53" id="z1k-dM-UM9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="8"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="groupName" destination="YfF-cJ-w9b" id="WGS-jL-C9t"/>
+                <outlet property="groupPhoto" destination="zMH-t7-Aro" id="Vat-bg-8sw"/>
+                <outletCollection property="constraint" destination="oNu-hr-OaE" collectionClass="NSMutableArray" id="fhe-UT-yuj"/>
+                <outletCollection property="constraint" destination="Vjf-ld-Ggi" collectionClass="NSMutableArray" id="RLE-vB-DjB"/>
+                <outletCollection property="constraint" destination="Wkg-NS-ydW" collectionClass="NSMutableArray" id="Shr-CK-QpX"/>
+            </connections>
+            <point key="canvasLocation" x="157.24637681159422" y="-19.084821428571427"/>
+        </tableViewCell>
+    </objects>
+</document>

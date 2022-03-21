@@ -7,11 +7,22 @@
 
 import UIKit
 
+
 class MyTableViewController2:UITableViewController, UISearchBarDelegate {
 
     
 
+    let networkServiceGroup = NetworkServiceGroup()
+    private var name = [NameGroup]() {
+        didSet {
+            display(groups: name)
+        }
+    }
     
+    func display(groups: [NameGroup])
+    {
+        filterGroup = groups
+    }
 
     @IBOutlet weak var tableView1: UITableView!
     
@@ -19,13 +30,16 @@ class MyTableViewController2:UITableViewController, UISearchBarDelegate {
     @IBOutlet var searchBar: UISearchBar!
  
     
-        var group = [GroupModel(nameGroup: "ВКонтакте", photoGroup: UIImage(named: "bugatti") ?? UIImage()),
-                     GroupModel(nameGroup: "Физкек", photoGroup: UIImage(named: "g63") ?? UIImage()),
-                     GroupModel(nameGroup: "Apple Russia", photoGroup: UIImage(named: "g63") ?? UIImage())
-                     ]
-        
+
+
     
-    var filterGroup: [GroupModel] = []
+     var filterGroup = [NameGroup]() {
+        didSet {
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
+        }
+    }
     //MARK: -Lifecycle
 
     
@@ -35,18 +49,27 @@ class MyTableViewController2:UITableViewController, UISearchBarDelegate {
         tableView.register(UINib(nibName: "Groups", bundle: nil), forCellReuseIdentifier: "groups")
         tableView1.dataSource = self
         tableView1.delegate = self
-        filterGroup = group
+      
         searchBar.delegate = self
-        
-    }
+    let _ = networkServiceGroup.group {  [weak self] result in
+            switch result {
+            case .success(let name):
+                self?.name = name
+            case .failure(let error):
+                print (error)
+            }
+        }
+            
+        }
+    
     
 
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
 
-        filterGroup = searchText.isEmpty ? group : group.filter { (item: GroupModel) -> Bool in
+        filterGroup = searchText.isEmpty ? name : name.filter { (item: NameGroup) -> Bool in
 
-            return item.nameGroup.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil
+            return item.name.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil
                }
 
         tableView1.reloadData()
@@ -77,8 +100,9 @@ class MyTableViewController2:UITableViewController, UISearchBarDelegate {
         
         else {return UITableViewCell()}
         let currencyGroup = filterGroup[indexPath.row]
-        cell.groupName?.text = filterGroup[indexPath.row].nameGroup
-        cell.configure(photo: currencyGroup.photoGroup, name: currencyGroup.nameGroup)
+        guard let url = URL(string: currencyGroup.photo) else { return UITableViewCell()}
+        cell.groupName?.text = filterGroup[indexPath.row].name
+        cell.configure(photo:url, name: currencyGroup.name)
   
       
         // Configure the cell...

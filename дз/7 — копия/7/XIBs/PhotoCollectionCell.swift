@@ -5,7 +5,6 @@
 //  Created by Егор on 17.02.2022.
 //
 import UIKit
-
 class PhotoCollectionCell: UICollectionViewCell {
 
     @IBOutlet var emblem: UIImageView!

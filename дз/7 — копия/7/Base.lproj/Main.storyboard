@@ -132,6 +132,7 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="nameCollection" destination="e1i-Q4-2Ia" id="lx8-bd-Pjc"/>
                         <segue destination="TlX-VX-CPf" kind="show" identifier="goPhotoFriend" id="tps-FD-ovA"/>
                     </connections>
                 </tableViewController>
@@ -156,7 +157,7 @@
                     <navigationItem key="navigationItem" title="Мои сообщества" id="bSA-qv-phu">
                         <barButtonItem key="rightBarButtonItem" title="Title" image="magnifyingglass" catalog="system" id="xuA-aP-Fkt">
                             <connections>
-                                <segue destination="IgW-Lx-i58" kind="show" id="n2u-IN-2yL"/>
+                                <segue destination="IgW-Lx-i58" kind="show" identifier="" id="n2u-IN-2yL"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -214,9 +215,11 @@
                     <connections>
                         <outlet property="searchBar" destination="vor-3W-yzw" id="8oQ-pF-Wpv"/>
                         <outlet property="tableView1" destination="4vX-gt-Bsk" id="LXl-7l-VCz"/>
+                        <segue destination="ZgM-IX-K2M" kind="unwind" identifier="addGroup" unwindAction="addGroupWithSegue:" id="ybu-Hv-7o8"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iXZ-nb-jVC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="ZgM-IX-K2M" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="7863.7681159420299" y="222.99107142857142"/>
         </scene>

@@ -13,14 +13,14 @@
 		74697A5627BE2C7A007DD5B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74697A5427BE2C7A007DD5B6 /* Main.storyboard */; };
 		74697A5827BE2C7D007DD5B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74697A5727BE2C7D007DD5B6 /* Assets.xcassets */; };
 		74697A5B27BE2C7D007DD5B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74697A5927BE2C7D007DD5B6 /* LaunchScreen.storyboard */; };
-		74697A6727BE2E14007DD5B6 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A6627BE2E14007DD5B6 /* NetworkService.swift */; };
+		74697A6727BE2E14007DD5B6 /* NetworkServiceFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A6627BE2E14007DD5B6 /* NetworkServiceFriend.swift */; };
 		74697A6927BE2E44007DD5B6 /* Singletone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A6827BE2E44007DD5B6 /* Singletone.swift */; };
 		74697A6D27BE2EEB007DD5B6 /* VkLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A6C27BE2EEB007DD5B6 /* VkLoginViewController.swift */; };
-		74697A6F27BE2F1F007DD5B6 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A6E27BE2F1F007DD5B6 /* NewsTableViewController.swift */; };
-		74697A7127BE2F4E007DD5B6 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A7027BE2F4E007DD5B6 /* MyTableViewController.swift */; };
-		74697A7327BE2F6B007DD5B6 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A7227BE2F6B007DD5B6 /* MyCollectionViewController.swift */; };
-		74697A7527BE2F7D007DD5B6 /* MyTableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A7427BE2F7D007DD5B6 /* MyTableViewController1.swift */; };
-		74697A7727BE2F92007DD5B6 /* MyTableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A7627BE2F92007DD5B6 /* MyTableViewController2.swift */; };
+		74697A6F27BE2F1F007DD5B6 /* NewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A6E27BE2F1F007DD5B6 /* NewsVC.swift */; };
+		74697A7127BE2F4E007DD5B6 /* FriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A7027BE2F4E007DD5B6 /* FriendsVC.swift */; };
+		74697A7327BE2F6B007DD5B6 /* PhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A7227BE2F6B007DD5B6 /* PhotoVC.swift */; };
+		74697A7527BE2F7D007DD5B6 /* GroupListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A7427BE2F7D007DD5B6 /* GroupListVC.swift */; };
+		74697A7727BE2F92007DD5B6 /* SearchGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A7627BE2F92007DD5B6 /* SearchGroupVC.swift */; };
 		74697A7B27BE2FFC007DD5B6 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A7A27BE2FFC007DD5B6 /* CustomSegue.swift */; };
 		74697A7D27BE3013007DD5B6 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A7C27BE3013007DD5B6 /* CustomNavigationController.swift */; };
 		74697A7F27BE3021007DD5B6 /* NavigationAnimators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A7E27BE3021007DD5B6 /* NavigationAnimators.swift */; };
@@ -39,6 +39,11 @@
 		74697A9B27BE3142007DD5B6 /* Friends.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74697A9927BE3142007DD5B6 /* Friends.xib */; };
 		74697A9E27BE315D007DD5B6 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74697A9C27BE315D007DD5B6 /* Groups.swift */; };
 		74697A9F27BE315D007DD5B6 /* Groups.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74697A9D27BE315D007DD5B6 /* Groups.xib */; };
+		749B6F7227CBC1F700A899BD /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749B6F7127CBC1F700A899BD /* File.swift */; };
+		749B6F7427DD025B00A899BD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749B6F7327DD025B00A899BD /* User.swift */; };
+		749B6F7827DD026F00A899BD /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749B6F7727DD026F00A899BD /* Group.swift */; };
+		749B6F7A27E5A76F00A899BD /* NetworkServiceGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749B6F7927E5A76F00A899BD /* NetworkServiceGroup.swift */; };
+		749B6F7D27E8866500A899BD /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 749B6F7C27E8866500A899BD /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,14 +55,14 @@
 		74697A5727BE2C7D007DD5B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74697A5A27BE2C7D007DD5B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74697A5C27BE2C7D007DD5B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74697A6627BE2E14007DD5B6 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		74697A6627BE2E14007DD5B6 /* NetworkServiceFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceFriend.swift; sourceTree = "<group>"; };
 		74697A6827BE2E44007DD5B6 /* Singletone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singletone.swift; sourceTree = "<group>"; };
 		74697A6C27BE2EEB007DD5B6 /* VkLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkLoginViewController.swift; sourceTree = "<group>"; };
-		74697A6E27BE2F1F007DD5B6 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
-		74697A7027BE2F4E007DD5B6 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
-		74697A7227BE2F6B007DD5B6 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
-		74697A7427BE2F7D007DD5B6 /* MyTableViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController1.swift; sourceTree = "<group>"; };
-		74697A7627BE2F92007DD5B6 /* MyTableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController2.swift; sourceTree = "<group>"; };
+		74697A6E27BE2F1F007DD5B6 /* NewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVC.swift; sourceTree = "<group>"; };
+		74697A7027BE2F4E007DD5B6 /* FriendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsVC.swift; sourceTree = "<group>"; };
+		74697A7227BE2F6B007DD5B6 /* PhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoVC.swift; sourceTree = "<group>"; };
+		74697A7427BE2F7D007DD5B6 /* GroupListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListVC.swift; sourceTree = "<group>"; };
+		74697A7627BE2F92007DD5B6 /* SearchGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGroupVC.swift; sourceTree = "<group>"; };
 		74697A7A27BE2FFC007DD5B6 /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
 		74697A7C27BE3013007DD5B6 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		74697A7E27BE3021007DD5B6 /* NavigationAnimators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAnimators.swift; sourceTree = "<group>"; };
@@ -76,6 +81,10 @@
 		74697A9927BE3142007DD5B6 /* Friends.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Friends.xib; sourceTree = "<group>"; };
 		74697A9C27BE315D007DD5B6 /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
 		74697A9D27BE315D007DD5B6 /* Groups.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Groups.xib; sourceTree = "<group>"; };
+		749B6F7127CBC1F700A899BD /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		749B6F7327DD025B00A899BD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		749B6F7727DD026F00A899BD /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		749B6F7927E5A76F00A899BD /* NetworkServiceGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceGroup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749B6F7D27E8866500A899BD /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +135,8 @@
 		74697A6227BE2D81007DD5B6 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				74697A6627BE2E14007DD5B6 /* NetworkService.swift */,
+				74697A6627BE2E14007DD5B6 /* NetworkServiceFriend.swift */,
+				749B6F7927E5A76F00A899BD /* NetworkServiceGroup.swift */,
 				74697A6827BE2E44007DD5B6 /* Singletone.swift */,
 			);
 			path = Service;
@@ -147,6 +158,9 @@
 				74697A8827BE306E007DD5B6 /* GroupModel.swift */,
 				74697A8A27BE3076007DD5B6 /* Class.swift */,
 				74697A8C27BE307D007DD5B6 /* PhotoStruct.swift */,
+				749B6F7127CBC1F700A899BD /* File.swift */,
+				749B6F7327DD025B00A899BD /* User.swift */,
+				749B6F7727DD026F00A899BD /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -178,11 +192,11 @@
 		74697A6B27BE2EB0007DD5B6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				74697A7627BE2F92007DD5B6 /* MyTableViewController2.swift */,
-				74697A7427BE2F7D007DD5B6 /* MyTableViewController1.swift */,
-				74697A7227BE2F6B007DD5B6 /* MyCollectionViewController.swift */,
-				74697A7027BE2F4E007DD5B6 /* MyTableViewController.swift */,
-				74697A6E27BE2F1F007DD5B6 /* NewsTableViewController.swift */,
+				74697A7627BE2F92007DD5B6 /* SearchGroupVC.swift */,
+				74697A7427BE2F7D007DD5B6 /* GroupListVC.swift */,
+				74697A7227BE2F6B007DD5B6 /* PhotoVC.swift */,
+				74697A7027BE2F4E007DD5B6 /* FriendsVC.swift */,
+				74697A6E27BE2F1F007DD5B6 /* NewsVC.swift */,
 				74697A6C27BE2EEB007DD5B6 /* VkLoginViewController.swift */,
 				74697A5227BE2C7A007DD5B6 /* ViewController.swift */,
 			);
@@ -225,6 +239,9 @@
 			dependencies = (
 			);
 			name = 7;
+			packageProductDependencies = (
+				749B6F7C27E8866500A899BD /* Kingfisher */,
+			);
 			productName = 7;
 			productReference = 74697A4B27BE2C7A007DD5B6 /* 7.app */;
 			productType = "com.apple.product-type.application";
@@ -253,6 +270,9 @@
 				Base,
 			);
 			mainGroup = 74697A4227BE2C7A007DD5B6;
+			packageReferences = (
+				749B6F7B27E8866500A899BD /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 74697A4C27BE2C7A007DD5B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -285,10 +305,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				74697A5327BE2C7A007DD5B6 /* ViewController.swift in Sources */,
+				749B6F7A27E5A76F00A899BD /* NetworkServiceGroup.swift in Sources */,
 				74697A6D27BE2EEB007DD5B6 /* VkLoginViewController.swift in Sources */,
 				74697A6927BE2E44007DD5B6 /* Singletone.swift in Sources */,
 				74697A9A27BE3142007DD5B6 /* Friends.swift in Sources */,
-				74697A7127BE2F4E007DD5B6 /* MyTableViewController.swift in Sources */,
+				74697A7127BE2F4E007DD5B6 /* FriendsVC.swift in Sources */,
+				749B6F7427DD025B00A899BD /* User.swift in Sources */,
 				74697A7B27BE2FFC007DD5B6 /* CustomSegue.swift in Sources */,
 				74697A8327BE3036007DD5B6 /* AvatarView.swift in Sources */,
 				74697A8127BE302A007DD5B6 /* SomeAnimator.swift in Sources */,
@@ -298,16 +320,18 @@
 				74697A9227BE30F7007DD5B6 /* PhotoCollectionCell.swift in Sources */,
 				74697A8B27BE3076007DD5B6 /* Class.swift in Sources */,
 				74697A9E27BE315D007DD5B6 /* Groups.swift in Sources */,
-				74697A6727BE2E14007DD5B6 /* NetworkService.swift in Sources */,
+				74697A6727BE2E14007DD5B6 /* NetworkServiceFriend.swift in Sources */,
 				74697A8527BE3048007DD5B6 /* UIBezierPath + Ext.swift in Sources */,
-				74697A7327BE2F6B007DD5B6 /* MyCollectionViewController.swift in Sources */,
+				74697A7327BE2F6B007DD5B6 /* PhotoVC.swift in Sources */,
 				74697A4F27BE2C7A007DD5B6 /* AppDelegate.swift in Sources */,
-				74697A7527BE2F7D007DD5B6 /* MyTableViewController1.swift in Sources */,
+				74697A7527BE2F7D007DD5B6 /* GroupListVC.swift in Sources */,
 				74697A8727BE3062007DD5B6 /* News.swift in Sources */,
-				74697A6F27BE2F1F007DD5B6 /* NewsTableViewController.swift in Sources */,
+				749B6F7827DD026F00A899BD /* Group.swift in Sources */,
+				74697A6F27BE2F1F007DD5B6 /* NewsVC.swift in Sources */,
 				74697A7F27BE3021007DD5B6 /* NavigationAnimators.swift in Sources */,
 				74697A5127BE2C7A007DD5B6 /* SceneDelegate.swift in Sources */,
-				74697A7727BE2F92007DD5B6 /* MyTableViewController2.swift in Sources */,
+				749B6F7227CBC1F700A899BD /* File.swift in Sources */,
+				74697A7727BE2F92007DD5B6 /* SearchGroupVC.swift in Sources */,
 				74697A7D27BE3013007DD5B6 /* CustomNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +550,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		749B6F7B27E8866500A899BD /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		749B6F7C27E8866500A899BD /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 749B6F7B27E8866500A899BD /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 74697A4327BE2C7A007DD5B6 /* Project object */;
 }

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 @IBDesignable
 class Groups: UITableViewCell {
 
@@ -14,11 +15,14 @@ class Groups: UITableViewCell {
     @IBOutlet var groupPhoto: AvatarImage!
     
     @IBOutlet var groupName: UILabel!
+    
+    
   
-    func configure(photo:UIImage,name: String)
+    func configure(photo: URL,name: String)
     {
-        groupPhoto.image = photo
+        groupPhoto.kf.setImage(with: photo)
         groupName.text = name
+        
     }
     
     override func layoutIfNeeded() {

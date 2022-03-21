@@ -9,28 +9,32 @@ import UIKit
 
 final class MyTableViewController1: UITableViewController {
 
-   
+
     
-    var group = [GroupModel]()
-    
+    var name = [NameGroup]()
+
     @IBAction func addGroup(segue: UIStoryboardSegue)
     {
         guard segue.identifier == "addGroup",
-        let groupController = segue.source as? MyTableViewController2,
+       let groupController = segue.source as? MyTableViewController2,
               let groupIndexPath = groupController.tableView.indexPathForSelectedRow,
-              !self.group.contains(groupController.filterGroup[groupIndexPath.row])
+              !self.name.contains(where: { grupName in
+                  if (groupController.filterGroup[groupIndexPath.row].name == grupName.name){return true}
+                  else {return false}
+              })
         else {return}
-        self.group.append(groupController.filterGroup[groupIndexPath.row])
-        tableView.reloadData()
+        self.name.append(groupController.filterGroup[groupIndexPath.row])
+       return  tableView.reloadData()
     }
-    
+
     //MARK: -Lifecycle
 
-    
-    
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UINib(nibName: "Groups", bundle: nil), forCellReuseIdentifier: "groups")
+
     }
     // MARK: - Table view data source
 
@@ -41,22 +45,24 @@ final class MyTableViewController1: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        group.count
+        name.count
     }
 
-    
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard
         let cell = tableView.dequeueReusableCell(withIdentifier: "groups", for: indexPath) as? Groups
-        
+
         else {return UITableViewCell()}
-        let currencyGroup = group[indexPath.row]
-        cell.configure(photo: currencyGroup.photoGroup, name: currencyGroup.nameGroup)
-        // Configure the cell...
+        
+        let currencyGroup = name[indexPath.row]
+        guard let url = URL(string: currencyGroup.photo) else { return UITableViewCell()}
+        cell.configure(photo:url, name: currencyGroup.name)
+       //  Configure the cell...
 
         return cell
     }
-    
+
 
 
 
@@ -66,12 +72,12 @@ final class MyTableViewController1: UITableViewController {
                             commit editingStyle: UITableViewCell.EditingStyle,
                             forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            group.remove(at:indexPath.row)
+            name.remove(at:indexPath.row)
             tableView.deleteRows(at: [indexPath],
                                  with: .fade)
         }
         }
-    
+
    
     
 

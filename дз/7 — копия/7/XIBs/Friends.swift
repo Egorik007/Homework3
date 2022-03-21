@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import Kingfisher
 class Friends: UITableViewCell {
 
     @IBOutlet var userPhoto: AvatarImage!
@@ -24,9 +24,9 @@ class Friends: UITableViewCell {
  
     
     
-    func configure(photo:UIImage,name: String)
+    func configure(photo:URL,name: String)
     {
-        userPhoto.image = photo
+        userPhoto.kf.setImage(with: photo)
         friandName.text = name
  
     }

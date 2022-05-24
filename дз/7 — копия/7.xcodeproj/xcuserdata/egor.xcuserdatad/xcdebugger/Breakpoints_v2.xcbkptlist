@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "45F30C2C-EDAA-4753-813F-409F693D0E75"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0A7850A-0305-4ED9-B3B5-010B7C143F78"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "7/ViewControllers/MyTableViewController2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "MyTableViewController2"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F0A7850A-0305-4ED9-B3B5-010B7C143F78 - cff5f7579804070c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_.MyTableViewController2.searchBar.getter : Swift.Optional&lt;__C.UISearchBar&gt;"
+                  moduleName = "7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egor/Desktop/7/7/ViewControllers/MyTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  uuid = "F0A7850A-0305-4ED9-B3B5-010B7C143F78 - d2daea6913665b38"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_.MyTableViewController2.searchBar.setter : Swift.Optional&lt;__C.UISearchBar&gt;"
+                  moduleName = "7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egor/Desktop/7/7/ViewControllers/MyTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "F0A7850A-0305-4ED9-B3B5-010B7C143F78 - 606ff0d8b3db9984"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_.MyTableViewController2.searchBar.modify : Swift.Optional&lt;__C.UISearchBar&gt;"
+                  moduleName = "7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egor/Desktop/7/7/ViewControllers/MyTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "F0A7850A-0305-4ED9-B3B5-010B7C143F78 - d3fb13d50ff7895"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_.MyTableViewController2.searchBar.modify : Swift.Optional&lt;__C.UISearchBar&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egor/Desktop/7/7/ViewControllers/MyTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "F0A7850A-0305-4ED9-B3B5-010B7C143F78 - 96b1c5f324c742e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_.MyTableViewController2.init(style: __C.UITableViewStyle) -&gt; _.MyTableViewController2"
+                  moduleName = "7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egor/Desktop/7/7/ViewControllers/MyTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "F0A7850A-0305-4ED9-B3B5-010B7C143F78 - 4c36bdff01d957ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_.MyTableViewController2.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; _.MyTableViewController2"
+                  moduleName = "7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egor/Desktop/7/7/ViewControllers/MyTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "234">
+               </Location>
+               <Location
+                  uuid = "F0A7850A-0305-4ED9-B3B5-010B7C143F78 - 2bed1223db9dd528"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_.MyTableViewController2.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_.MyTableViewController2&gt;"
+                  moduleName = "7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egor/Desktop/7/7/ViewControllers/MyTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "182">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C38FDF42-1E43-4429-BF7D-7F2382725A80"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "7/ViewControllers/MyTableViewController2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "MyTableViewController2"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C38FDF42-1E43-4429-BF7D-7F2382725A80 - 965aba4fa77d2655"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_.MyTableViewController2.filterGroup.getter : Swift.Array&lt;_.GroupModel&gt;"
+                  moduleName = "7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egor/Desktop/7/7/ViewControllers/MyTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "C38FDF42-1E43-4429-BF7D-7F2382725A80 - 1d413907fef4d441"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_.MyTableViewController2.filterGroup.setter : Swift.Array&lt;_.GroupModel&gt;"
+                  moduleName = "7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egor/Desktop/7/7/ViewControllers/MyTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "C38FDF42-1E43-4429-BF7D-7F2382725A80 - 8cebc09a8b26e34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_.MyTableViewController2.filterGroup.modify : Swift.Array&lt;_.GroupModel&gt;"
+                  moduleName = "7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egor/Desktop/7/7/ViewControllers/MyTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "C38FDF42-1E43-4429-BF7D-7F2382725A80 - cea7558b038386b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_.MyTableViewController2.filterGroup.modify : Swift.Array&lt;_.GroupModel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egor/Desktop/7/7/ViewControllers/MyTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "C38FDF42-1E43-4429-BF7D-7F2382725A80 - 96b1c5f324c7438b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_.MyTableViewController2.init(style: __C.UITableViewStyle) -&gt; _.MyTableViewController2"
+                  moduleName = "7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egor/Desktop/7/7/ViewControllers/MyTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "908">
+               </Location>
+               <Location
+                  uuid = "C38FDF42-1E43-4429-BF7D-7F2382725A80 - 4c36bdff01d95685"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_.MyTableViewController2.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; _.MyTableViewController2"
+                  moduleName = "7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egor/Desktop/7/7/ViewControllers/MyTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "959">
+               </Location>
+               <Location
+                  uuid = "C38FDF42-1E43-4429-BF7D-7F2382725A80 - 2bed1223db9dd441"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_.MyTableViewController2.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_.MyTableViewController2&gt;"
+                  moduleName = "7"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/egor/Desktop/7/7/ViewControllers/MyTableViewController2.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "892">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99AC6461-45AA-4DDD-9258-DA8B3B186B76"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "7/ViewControllers/MyTableViewController2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B2C6157-2524-405E-BA8E-12A8CC0A1C0B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "7/ViewControllers/MyTableViewController2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "searchBar(_:textDidChange:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4954D081-EAD1-4C5E-AC72-475EA89FC8E2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "7/ViewControllers/MyTableViewController2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACEE5002-F01B-4B40-B783-CA7C9F2A133B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "7/ViewControllers/MyTableViewController2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9FBF7A2-FB14-42BE-8FCA-107CF2C3FA97"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "7/ViewControllers/MyTableViewController2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65482856-2EF1-417D-B266-9A1B1ADF7ACA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "7/ViewControllers/MyTableViewController2.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5E769BA-CD4F-4E65-8E70-05710069045F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "7/ViewControllers/VkLoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD9B274E-5FE1-4080-A664-4F5084735FE2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "7/ViewControllers/MyTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "MyTableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21AD0893-4229-4365-B7FE-DB67C65DBCE4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "7/Service/NetworkServiceUserPhoto.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "photo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB3CC122-8738-453E-98BC-3C5E8E8E3F8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "7/Service/Singletone.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "SomeSingletone"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAFF2593-48F2-4733-8BC5-602AF97B588A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "7/Service/Singletone.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "SomeSingletone"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

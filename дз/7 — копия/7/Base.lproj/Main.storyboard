@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="31g-Wf-H1K">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="31g-Wf-H1K">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4JG-Yj-LiA">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4JG-Yj-LiA">
+                                <rect key="frame" x="3" y="-10" width="414" height="896"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ВКонтакте" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDj-UN-v2f">
                                         <rect key="frame" x="92" y="93" width="245.5" height="66"/>
@@ -242,6 +242,21 @@
             </objects>
             <point key="canvasLocation" x="5650.7246376811599" y="-1493.3035714285713"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="PNz-49-0DZ">
+            <objects>
+                <viewController id="WGS-yP-Owc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JcR-Q0-pwJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="RW6-hj-8Pk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="02m-4I-BAe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1201" y="-736"/>
+        </scene>
         <!--Login View-->
         <scene sceneID="mWO-EL-4eD">
             <objects>
@@ -270,7 +285,7 @@
                     </view>
                     <connections>
                         <outlet property="webView" destination="bnv-Ix-96e" id="kwz-qt-Uri"/>
-                        <segue destination="DjZ-vE-9Br" kind="presentation" identifier="goToMain" modalPresentationStyle="fullScreen" id="G9v-ew-z7u"/>
+                        <segue destination="DjZ-vE-9Br" kind="presentation" identifier="goToMain" modalPresentationStyle="fullScreen" id="UMR-1J-ry3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Mf-3U-QFT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -7,12 +7,10 @@
 
 import Foundation
 
-final class NetworkServiceFriend
-{
+final class NetworkServiceFriend {
     
 
-    func friends(completion: @escaping (Result<[NameFriend],Error>) -> Void)
-    {
+    func friends(completion: @escaping (Result<[NameFriend],Error>) -> Void) -> URLComponents {
         
         
         
@@ -21,8 +19,7 @@ final class NetworkServiceFriend
         comp.scheme = "https"
         comp.host = "api.vk.com"
         comp.path = "/method/friends.get"
-     var urlComponents: URLComponents =
-    {
+
 
 
         comp.queryItems = [
@@ -41,8 +38,7 @@ URLQueryItem(name: "v", value: "5.131")
 
         var request = URLRequest(url: comp.url!)
         request.httpMethod = "GET"
-        let task = session.dataTask(with: request)
-        {
+        let task = session.dataTask(with: request){
             data,response,error in
 
         //    print(data,response,error)
@@ -68,7 +64,7 @@ URLQueryItem(name: "v", value: "5.131")
         return comp
 
 
-    }()
+
 }
 }
 

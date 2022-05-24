@@ -21,9 +21,9 @@ final class MyTableViewController: UITableViewController {
     
    
 
-    private var name = [NameFriend]() {
+    private var friend = [NameFriend]() {
         didSet {
-            sortAndDispaly(users: name)
+            sortAndDispaly(users: friend)
         }
     }
     
@@ -42,8 +42,8 @@ final class MyTableViewController: UITableViewController {
         tableView.register(UINib(nibName: "Friends", bundle: nil), forCellReuseIdentifier: "friends")
         networkService.friends { [weak self] result in
             switch result {
-            case .success(let name):
-                self?.name = name
+            case .success(let friend):
+                self?.friend = friend
             case .failure(let error):
                 print (error)
             }

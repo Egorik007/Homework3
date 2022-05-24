@@ -17,7 +17,7 @@ final class NetworkServiceGroup
     comp.scheme = "https"
     comp.host = "api.vk.com"
     comp.path = "/method/groups.get"
-        var urlComponents: URLComponents =
+        var _: URLComponents =
         {
             
             comp.queryItems =
